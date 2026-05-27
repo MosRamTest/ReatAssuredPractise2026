@@ -10,8 +10,8 @@ public class APIPayloadBuilder {
     public static JSONObject loginPayload() {
         JSONObject jsonObject = new JSONObject();
 
-        jsonObject.put("email", "mosram2@gmail.com");
-        jsonObject.put("password", "mosram2@gmail.com");
+        jsonObject.put("email", "admin@gmail.com");
+        jsonObject.put("password", "@12345678");
         return jsonObject;
 
 

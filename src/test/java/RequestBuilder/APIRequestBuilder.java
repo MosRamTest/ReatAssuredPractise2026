@@ -9,7 +9,7 @@ import static PayloadBuilder.APIPayloadBuilder.*;
 public class APIRequestBuilder {
 
     public static Response loginResponse(){
-        return.given().
+        return given().
                 baseUri(baseUrl2).
                 basePath("/login").
                 contentType("application/json").
